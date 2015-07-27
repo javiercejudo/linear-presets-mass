@@ -1,6 +1,6 @@
 {
   "name": "linear-presets-mass",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Linear presets for mass units",
   "main": "src/linear-presets-mass.js",
   "scripts": {
