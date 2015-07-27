@@ -12,7 +12,7 @@ Linear presets for mass units
 
 ## Presets
 
-Base: [Celsius](https://en.wikipedia.org/wiki/Celsius)
+Base: [Kilogram](https://en.wikipedia.org/wiki/Kilogram)
 
 - [Tonne](https://en.wikipedia.org/wiki/Tonne)
 - [Gram](https://en.wikipedia.org/wiki/Gram)
