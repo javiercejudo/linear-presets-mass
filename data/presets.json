@@ -1,11 +1,15 @@
 {
-  "kilogramToMetricTon": [[0, 1e3], [0, 1]],
-  "kilogramToGram": [[0, 1], [0, 1e3]],
-  "kilogramToMilligram": [[0, 1], [0, 1e6]],
-  "kilogramToMicrogram": [[0, 1], [0, 1e9]],
-  "kilogramToLongTon": [[0, 1016], [0, 1]],
-  "kilogramToShortTon": [[0, 907.18474], [0, 1]],
-  "kilogramToStone": [[0, 6.35029318], [0, 1]],
-  "kilogramToPound": [[0, 0.45359237], [0, 1]],
-  "kilogramToOunce": [[0, 0.02834952312], [0, 1]]
+  "base": "kilogram",
+  "conversions": {
+    "kilogram": [[0, 1], [0, 1]],
+    "metricTon": [[0, 1e3], [0, 1]],
+    "gram": [[0, 1], [0, 1e3]],
+    "milligram": [[0, 1], [0, 1e6]],
+    "microgram": [[0, 1], [0, 1e9]],
+    "longTon": [[0, 1016], [0, 1]],
+    "shortTon": [[0, 907.18474], [0, 1]],
+    "stone": [[0, 6.35029318], [0, 1]],
+    "pound": [[0, 0.45359237], [0, 1]],
+    "ounce": [[0, 0.02834952312], [0, 1]]
+  }
 }
