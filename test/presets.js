@@ -27,7 +27,7 @@ describe('mass presets', function() {
       .and.exactly(convert(0.011023113109243879, invert(mass.kilogram_shortTon)), 'kilogram_shortTon')
       .and.exactly(convert(1.5747304441776968, invert(mass.kilogram_stone)), 'kilogram_stone')
       .and.exactly(convert(22.046226218487757, invert(mass.kilogram_pound)), 'kilogram_pound')
-      .and.exactly(convert(352.7396195580167, invert(mass.kilogram_ounce)), 'kilogram_ounce');
+      .and.exactly(convert(352.7396194958041, invert(mass.kilogram_ounce)), 'kilogram_ounce');
 
     (0).should.be.exactly(convert(0, mass.kilogram_kilogram), 'kilogram_kilogram')
       .and.exactly(convert(0, mass.kilogram_metricTon), 'kilogram_metricTon')
