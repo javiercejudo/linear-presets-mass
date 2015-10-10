@@ -9,12 +9,12 @@ var rescale = require('rescale')(Decimal).rescale;
 var mass = require('linear-preset-factory')(require('../src/linear-presets-mass'));
 
 function convert(x, preset) {
-  return Number(rescale(x, preset[0], preset[1]));
-};
+  return Number(rescale(preset[0], preset[1], x));
+}
 
 function invert(preset) {
-  return preset.slice(0).reverse();
-};
+  return preset.slice().reverse();
+}
 
 describe('mass presets', function() {
   it('should convert correctly', function() {
