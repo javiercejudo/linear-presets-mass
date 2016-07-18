@@ -32,6 +32,6 @@
     "linear-preset-factory": "^1.0.1",
     "rescale": "^10.0.0",
     "rimraf": "^2.4.3",
-    "should": "^8.0.0"
+    "should": "^10.0.0"
   }
 }
